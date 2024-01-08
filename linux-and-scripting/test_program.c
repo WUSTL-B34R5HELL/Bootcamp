@@ -3,7 +3,7 @@
 
 int main(){
 	char * flag = "bearshell{pYth0n1s3AsY}";
-	printf("Hello, welcome to my awesome program\nEnter the numers 1-10,000 to get the flag\n");
+	printf("Hello, welcome to my awesome program\nEnter the numbers 1-10,000 to get the flag\n");
 	
 	int input;
 	int correct = 1; //booleans don't exist in c

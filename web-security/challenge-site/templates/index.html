@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function flag4() {
+				fetch("/flag4.txt")
+				.then(response => response.text())
+				.then(textString => {
+					console.log(textString);
+				})
+			}
+
+			function validateLogin() {
+				let user = document.getElementsByName("user")[0].value;
+				let pass = document.getElementsByName("pass")[0].value;
+				if(user === "admin" && pass === "supersecretpassword"){
+					return true;
+				}
+				return false;
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+		<h1>Challenge 1:</h1>
+		<p>This is a totally normal block of text. Nothing to see here...maybe the developer tools can help.</p>
+		<!-- Here you go, flag: bearshell-flag-1{HTMLHasComments?!} -->
+		<p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.<br>
+		Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
+
+		<h1>Challenge 2:</h1>
+		<p>What if I hide the flag with CSS? Try to find the flag without copying the html tag.</p>
+		<p style="font-size: 0px; color: white">This is the flag: bearshell-flag-2{CSS_15_C13nT-SiDE}</p>
+
+		<h1>Challenge 3:</h1>
+		Robots are pretty cool. I wonder if there are any around here.
+
+		<h1>Challenge 4:</h1>
+		<p>Is there any javascript on this webpage?</p>
+	
+		<h1>Challenge 5:</h1>
+		<p>Client-side verification is bad...that's why I did both!</p>
+		<h2 style="color: white">Log In:</h2>
+		<form action="/login" onsubmit="return validateLogin()" method="get">
+			<label>Username:</label>
+			<input type="text" name="user"><br><br>
+			<label>Password:</label>
+			<input type="text" name="pass"><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>

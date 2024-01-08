@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+				background-color: black;
+				text-align: center;
+			}
+
+			h1{
+				font size: 80;
+			}
+
+			p{
+				color: white;
+				font-size: 40;
+			}
+
+			label{
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color: #35b729">Hello, welcome to my website!</h1>
+		<script>
+			function secretFunc(){
+				console.log("secretFunc is running...");
+				alert("ALERT: This is Javascript");
+			}
+
+			function login(){
+				let user = document.getElementsByName("user")[0].value;
+				let pass = document.getElementsByName("pass")[0].value;
+				alert("Your username: " + user + " and password: " + pass);
+			}
+		</script>
+
+		<p style="font-weight: bold">This is the website body...not a lot going on here.</p>
+		<p>This is a <a href="https://wustl-bearshell.github.io/" target=”_blank” style="color: #35b729">link</a></p>
+
+		<h2 style="color: white">Log In:</h2>
+		<form>
+			<label>Username:</label>
+			<input type="text" name="user"><br><br>
+			<label>Password:</label>
+			<input type="text" name="pass"><br><br>
+			<input type="button" value="Submit" onclick="login()">
+		</form>
+	</body>
+</html>
