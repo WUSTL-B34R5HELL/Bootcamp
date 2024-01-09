@@ -18,6 +18,15 @@
 				}
 				return false;
 			}
+
+			function flag6() {
+				fetch("/flag6.txt")
+				.then(response => response.text())
+				.then(textString => {
+					document.getElementById("flag6").innerHTML = textString;
+				})
+			}
+			flag6()
 		</script>
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 	</head>
@@ -48,5 +57,9 @@
 			<input type="text" name="pass"><br><br>
 			<input type="submit" value="Submit">
 		</form>
+
+		<h1>Challenge 6:</h1>
+		<p>Authentification is very important for secure communications. Make a cookie called "secure" with the value "not a robot" so that I can make sure its safe to give you the flag. Reload the page and you should get the cookie: </p>
+		<h3 id="flag6"></h3>
 	</body>
 </html>

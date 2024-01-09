@@ -10,4 +10,4 @@ Resources for each topic covered, including powerpoints and examples.
 ## Web Security
 ### Tasks:
 1. Download BurpSuite
-2. Complete the web security pwn.college dojo
+2. Complete the web security pwn.college [dojo](https://pwn.college/bearshell~83271640/web-security)
