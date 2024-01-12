@@ -16,3 +16,8 @@ Resources for each topic covered, including powerpoints and examples.
 ## Stegonagraph and Forensics
 ### Tasks:
 1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
+
+# Cryptography
+### Tasks:
+1. Complete the cryptography pwn.college [module](https://pwn.college/bearshell~83271640/crypto)
+2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
