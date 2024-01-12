@@ -19,8 +19,7 @@ make
 ### Web Challenge: localhost:8001
 1. Find the 6 flags, format: bearshell-flag-#{}
 
-## HTTP
-Communicate at localhost:8002
+## HTTP Server: localhost:8002
 1. Send a GET Request to "/flag1"
 2. Send a POST Request to "/flag2"
 3. Send a GET Request to "/flag3" with two query parameters: 

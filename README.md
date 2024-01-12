@@ -9,5 +9,10 @@ Resources for each topic covered, including powerpoints and examples.
 
 ## Web Security
 ### Tasks:
-1. Download BurpSuite
-2. Complete the web security pwn.college [dojo](https://pwn.college/bearshell~83271640/web-security)
+1. Download [BurpSuite](https://portswigger.net/burp/communitydownload)
+2. Download [Wireshark](https://www.wireshark.org/download.html) (for next meeting)
+2. Complete the web security pwn.college [module](https://pwn.college/bearshell~83271640/web-security)
+
+## Stegonagraph and Forensics
+### Tasks:
+1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
