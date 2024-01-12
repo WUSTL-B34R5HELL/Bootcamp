@@ -14,3 +14,4 @@ This document contains challenges meant to go along with the PowerPoint presenta
 ## Mathematical Ciphers
 1. OTP, key: "abcdefghijklmnopqrstuvwxyz", ciphertext: "AwcCFhYOAgQFEQwJAwsdEQUbHRNYBBYWHRUMTwgBHBVKARpHAw0fChI="
 2. OTP, plaintext: "OTP is perfectly secure, so you can't find the key right?", ciphertext: "623d2453441c571e481b081306061f1c5d11000207010d494c1f1458161d5849104c0753070d091e0049491a1e0052180004421708151b1c5a", What is the key (its a flag)?
+3. Decrypt the ciphertext, which was encrypted using AES and CBC chaining. Ciphertext (b64): "ur4RaaUoisnVLaAfDRLKKdNb4FC6cGhFy7d4Iig/SuupXSKLnlt7Xf2Qr3r1Nm1kbSitqmrJT0chLKB+nNt5aQ==", key (hex): "deadbeefdeadbeefdeadbeefdeadbeef", iv: "deadbeefdeadbeefdeadbeefdeadbeef"
