@@ -1,6 +1,6 @@
 default: all
 
-NAME=steg-challenges
+NAME=reverse-challenges
 
 all: build run
 

@@ -17,7 +17,12 @@ Resources for each topic covered, including powerpoints and examples.
 ### Tasks:
 1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
 
-# Cryptography
+## Cryptography
 ### Tasks:
 1. Complete the cryptography pwn.college [module](https://pwn.college/bearshell~83271640/crypto)
 2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
+
+## Reverse Engineering
+### Tasks:
+1. Make sure Ghidra or another decompiler is setup
+2. Complete the reverse engineering pwn.college [module](https://pwn.college/bearshell~83271640/reversing)

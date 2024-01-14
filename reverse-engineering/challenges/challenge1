@@ -1,0 +1,16 @@
+#!/bin/python3
+import sys
+
+check = bytearray(b"\xdc\xdb\xdf\xcc\xcd\xd6\xdb\xd2\xd2\xc5\xcc\xdb\xc8\xdb\xcc\xcd\xdb\x93\xcb\xcd\xd7\xd0\xd9\x93\xca\xd6\xdb\x93\xcc\xdb\xc8\xdb\xcc\xcd\xdb\xcc\xc3")
+print("Enter the flag: ", end = '', flush=True)
+flag = sys.stdin.buffer.read(len(check))
+new_flag = bytearray()
+for i in flag:
+    i ^= 0x3a
+    i ^= 0x84
+    new_flag += i.to_bytes(1, 'little')
+
+if new_flag == check:
+    print("Success")
+else:
+    print("Failure")
