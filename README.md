@@ -26,3 +26,7 @@ Resources for each topic covered, including powerpoints and examples.
 ### Tasks:
 1. Make sure Ghidra or another decompiler is setup
 2. Complete the reverse engineering pwn.college [module](https://pwn.college/bearshell~83271640/reversing)
+
+## Pwn
+### Tasks:
+1. Complete the pwn pwn.college [module](https://pwn.college/bearshell~83271640/pwn)
