@@ -3,8 +3,8 @@ Resources for each topic covered, including powerpoints and examples.
 
 ## Linux and Scripting
 ### Tasks:
-1. Set up a Linux environment. Follow this [guide](https://wiki.osucyber.club/en/Bootcamp-CTF/Getting-Started/Environment) written by OSU's CTF team.
-2. Setup Docker on the Linux environment.
+1. Set up an AMD64 Linux environment. If you have a Mac with an ARM-based chip, you must emulate the AMD64 Linux environment, which can be quite slow. For the sake of the bootcamp, skip to the docker setup step. For anyone else, follow this [guide](https://wiki.osucyber.club/en/Bootcamp-CTF/Getting-Started/Environment) written by OSU's CTF team.
+2. Setup Docker. For Mac, follow this [guide](https://docs.docker.com/desktop/install/mac-install/). For the Linux environment, follow this [guide](https://docs.docker.com/engine/install/) from the docker docs. Also, follow the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) to add your user to the docker group.
 3. Complete the first module in the [dojo](https://pwn.college/dojo/bearshell~83271640/join).
 
 ## Web Security
@@ -25,7 +25,7 @@ Resources for each topic covered, including powerpoints and examples.
 ## Reverse Engineering
 ### Tasks:
 1. Make sure Ghidra or another decompiler is setup
-2. Complete the reverse engineering pwn.college [module](https://pwn.college/bearshell~83271640/reversing)
+2. Complete the reverse engineering pwn.college [module](https://pwn.college/bearshell~83271640/reverse)
 
 ## Pwn
 ### Tasks:
