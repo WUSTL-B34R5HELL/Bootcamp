@@ -13,14 +13,14 @@ Resources for each topic covered, including powerpoints and examples.
 2. Download [Wireshark](https://www.wireshark.org/download.html) (for next meeting)
 2. Complete the web security pwn.college [module](https://pwn.college/bearshell~83271640/web-security)
 
-## Stegonagraph and Forensics
-### Tasks:
-1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
-
 ## Cryptography
 ### Tasks:
 1. Complete the cryptography pwn.college [module](https://pwn.college/bearshell~83271640/crypto)
 2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
+
+## Stegonagraph and Forensics
+### Tasks:
+1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
 
 ## Reverse Engineering
 ### Tasks:
