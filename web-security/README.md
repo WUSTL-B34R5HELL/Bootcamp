@@ -8,6 +8,7 @@ git clone https://github.com/WUSTL-B34R5HELL/Bootcamp.git
 cd Bootcamp/web-security
 make
 ```
+Open a browser and type localhost:8000
 ## Web Basics
 ### Example website: localhost:8000
 1. Change the website body
