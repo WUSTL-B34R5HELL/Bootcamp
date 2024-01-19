@@ -10,17 +10,17 @@ Resources for each topic covered, including powerpoints and examples.
 ## Web Security
 ### Tasks:
 1. Download [BurpSuite](https://portswigger.net/burp/communitydownload)
-2. Download [Wireshark](https://www.wireshark.org/download.html) (for next meeting)
 2. Complete the web security pwn.college [module](https://pwn.college/bearshell~83271640/web-security)
 
 ## Cryptography
 ### Tasks:
 1. Complete the cryptography pwn.college [module](https://pwn.college/bearshell~83271640/crypto)
-2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
+2. Download [Wireshark](https://www.wireshark.org/download.html) (for next meeting)
 
 ## Stegonagraph and Forensics
 ### Tasks:
 1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
+2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
 
 ## Reverse Engineering
 ### Tasks:
