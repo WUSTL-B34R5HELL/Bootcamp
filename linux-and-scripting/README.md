@@ -6,8 +6,9 @@ This document contains small challenges meant to go along with the PowerPoint pr
 1. Create an empty file named "bearshell"
 2. Write "Hello World!" inside the file
 3. Create a directory named "beardir" and move into this directory
-4. Move the file into the directory
-5. Copy the file outside the directory
+4. Create a hidden file in the directory (starts with ".")
+5. Move the "bearshell" file into the directory
+6. Copy the "bearshell" file outside the directory
 
 ### Command Flags and Man pages
 1. Print out the contents of the "beardir" directory
