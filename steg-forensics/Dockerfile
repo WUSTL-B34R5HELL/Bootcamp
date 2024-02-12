@@ -4,11 +4,15 @@ binutils \
 exiftool \
 binwalk \
 unzip \
-steghide 
+steghide \
+file \
+less \
+man-db 
 
 RUN mkdir /src
 COPY steg /src/steg
 COPY forensics /src/forensics
+RUN yes | unminimize
 
 WORKDIR /src
 ENTRYPOINT ["/bin/bash"]
