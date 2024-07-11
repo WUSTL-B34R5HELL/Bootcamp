@@ -6,13 +6,11 @@ binwalk \
 unzip \
 steghide \
 file \
-less \
-man-db 
+less
 
 RUN mkdir /src
 COPY steg /src/steg
 COPY forensics /src/forensics
-RUN yes | unminimize
 
 WORKDIR /src
 ENTRYPOINT ["/bin/bash"]

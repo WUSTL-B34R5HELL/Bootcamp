@@ -1,5 +1,5 @@
 # Cryptography
-This document contains challenges meant to go along with the video presentation on cryptography. We recommend using [CyberChef](https://gchq.github.io/CyberChef/) to solve these challenges.
+This document contains challenges meant to go along with the video presentation on cryptography. We recommend using [CyberChef](https://gchq.github.io/CyberChef/) to solve the challenges. Use the Docker setup to solve the last challenge of "Mathematical Ciphers".
 
 ## Text Encodings
 1. Find the flag: "626561727368656c6c7b692d6f6e6c792d646f2d6d6174682d696e2d626173652d31367d"
@@ -14,4 +14,4 @@ This document contains challenges meant to go along with the video presentation 
 ## Mathematical Ciphers
 1. OTP, key: "abcdefghijklmnopqrstuvwxyz", ciphertext: "AwcCFhYOAgQFEQwJAwsdEQUbHRNYBBYWHRUMTwgBHBVKARpHAw0fChI="
 2. OTP, plaintext: "OTP is perfectly secure, so you can't find the key right?", ciphertext: "623d2453441c571e481b081306061f1c5d11000207010d494c1f1458161d5849104c0753070d091e0049491a1e0052180004421708151b1c5a", What is the key (its a flag)?
-3. Decrypt the ciphertext, which was encrypted using AES and CBC chaining. Ciphertext (b64): "ur4RaaUoisnVLaAfDRLKKdNb4FC6cGhFy7d4Iig/SuupXSKLnlt7Xf2Qr3r1Nm1kbSitqmrJT0chLKB+nNt5aQ==", key (hex): "deadbeefdeadbeefdeadbeefdeadbeef", iv: "deadbeefdeadbeefdeadbeefdeadbeef"
+3. Decrypt the ciphertext, which was encrypted using AES and CBC chaining. The ciphertext is contained in "ct" inside the Docker setup. Key (hex): "deadbeefdeadbeefdeadbeefdeadbeef", iv: "deadbeefdeadbeefdeadbeefdeadbeef"

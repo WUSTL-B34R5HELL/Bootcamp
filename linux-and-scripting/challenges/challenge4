@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nohup echo "bearshell{something-something}" | nc -l 31337 &

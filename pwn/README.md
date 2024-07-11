@@ -1,4 +1,7 @@
 # Pwn
+This document contains challenges meant to go along with the video presentation on binary exploitation
+
+Note: This focuses on the amd64 architecture but can still be run on ARM processors, including the M-series Apple chips.
 
 ## Setup
 ```

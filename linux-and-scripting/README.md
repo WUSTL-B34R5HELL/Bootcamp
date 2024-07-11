@@ -1,5 +1,5 @@
 # Linux and Scripting
-This document contains small challenges meant to go along with the PowerPoint presentation on Linux and Shell CLI, and python scripting.
+This document contains small challenges meant to go along with the video presentation on Linux and Shell CLI, and Python scripting.
 
 ## Setup
 ```
@@ -9,37 +9,26 @@ make
 ```
 
 ## Linux CLI and Shell
-### Navigating the File System
-1. Create an empty file named "bearshell"
-2. Write "Hello World!" inside the file
-3. Create a directory named "beardir" and move into this directory
-4. Create a hidden file in the directory (starts with ".")
-5. Move the "bearshell" file into the directory
-6. Copy the "bearshell" file outside the directory
+### Navigating the File System (challenge 1)
+1. Navigate the road to victory and find the flag.
+2. Find the "hidden" flag.
 
-### Command Flags and Man pages
-1. Print out the contents of the "beardir" directory
-2. Print out the permissions of the files
-3. Print out hidden files
+### Command Flags and Man pages (challenge 2)
+1. Look through the mkdir manpage to find the flag. 
 
-### File Permissions
-1. What are the current permissions of the "bearshell" file
-2. Change the permissions of the "bearshell" file so that it is executable and suid bit is set
-2. Reprint the permssions of the file
-3. Change the owner to root (need sudo/root permissions)
+### File Permissions (challenge 3)
+1. Move into the challenge3 directory.
+2. Why can't you print the flag? How can you fix this?!?
+3. Check out /bin/less. Use this to read /flag.
 
-### Netcat
-1. Listen on port 8888 using netcat
-2. Connect to this port using another instance of netcat and send a message from the server and from the client
+### Netcat (challenge 4)
+1. Connect to port 31337 on localhost. I bet the server has something interesting to say.
 
-### Piping and Redirection
-1. Without a text editor, write "redirection is cool\n" into the "bearshell" file
-2. Print out the contents of this file
-3. Repeat step 1 without overriding the file
-4. Run ps aux
-5. View "ps aux" in less
-
+### Piping and Redirection (challenge 5)
+1. Move into the challenge5 directory.
+2. Run "redirect-to-win" and redirect stdout to a file called "output"
 
 ## Python Scripting
-### Automating Program Input
-1. Write a Python Program to automate the process of inputing 1 to 10,000 into 'test_program'
+### Automating Program Input (challenge 6)
+1. Move into the challenge6 directory.
+2. Write a Python program to automate the process of inputing 1 to 10,000 into "test_program" and get the flag.

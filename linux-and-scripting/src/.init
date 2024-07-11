@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#challenge 1 pt. 1
+pushd $PWD
+for i in {1..5}
+do
+  mkdir "road_to_victory$i"; cd $_
+done
+echo "bearshell{autofill_for_the_win}" > flag && chmod 444 flag
+popd
+
+#challenge 1 pt. 2
+echo "bearshell{not_so_hidden_hidden_flag}" > .flag && chmod 444 .flag
+
+#challenge 2
+gunzip -c /usr/share/man/man1/mkdir.1.gz | sed "s/help/bearshell{wait-is-this-the-wrong-type-of-flag}/" | gzip > temp.gz
+mv temp.gz /usr/share/man/man1/mkdir.1.gz
+
+#challenge 3
+chmod 4755 /bin/less
+echo "bearshell{suid-for-the-win}" > /flag
+chmod 400 /flag
+

@@ -1,6 +1,6 @@
 # Web Security
-This document contains challenges meant to go along with the video presentation on Web Security <br />
-Credit to the [b01lers CTF team](https://b01lers.com/) as this content was inspired by their previous [bootcamp](https://github.com/b01lers/bootcamp-2020-web).
+This document contains challenges meant to go along with the video presentation on Web Security.
+Credit to the b01lers CTF team as this content was inspired by their previous [bootcamp](https://github.com/b01lers/bootcamp-2020-web).
 
 ## Setup
 ```
