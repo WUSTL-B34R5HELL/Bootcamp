@@ -1,5 +1,5 @@
 # Cryptography
-This document contains challenges meant to go along with the PowerPoint presentation on cryptography. We recommend using CyberChef to solve these challenges.
+This document contains challenges meant to go along with the video presentation on cryptography. We recommend using [CyberChef](https://gchq.github.io/CyberChef/) to solve these challenges.
 
 ## Text Encodings
 1. Find the flag: "626561727368656c6c7b692d6f6e6c792d646f2d6d6174682d696e2d626173652d31367d"

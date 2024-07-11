@@ -1,14 +1,14 @@
 # Web Security
-This document contains challenges meant to go along with the PowerPoint presentation on Web Security <br />
+This document contains challenges meant to go along with the video presentation on Web Security <br />
 Credit to the [b01lers CTF team](https://b01lers.com/) as this content was inspired by their previous [bootcamp](https://github.com/b01lers/bootcamp-2020-web).
 
 ## Setup
 ```
-git clone https://github.com/WUSTL-B34R5HELL/Bootcamp.git
-cd Bootcamp/web-security
+cd web-security
 make
 ```
 Open a browser and type localhost:8000
+
 ## Web Basics
 ### Example website: localhost:8000
 1. Change the website body
@@ -27,7 +27,7 @@ Open a browser and type localhost:8000
 	password=12345
 	extra=bearshell
 4. Using BurpSuite or curl, send a POST Request to "/flag4" with a json content-type and 
-	password="json-data"
+	password="json-data" (Download [BurpSuite](https://portswigger.net/burp/communitydownload))
 
 ## End
 ```

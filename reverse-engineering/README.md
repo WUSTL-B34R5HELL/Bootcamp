@@ -1,5 +1,5 @@
 # Reverse Engineering
-This document contains challenges meant to go along with the PowerPoint presentation on Web Security
+This document contains challenges meant to go along with the video presentation on reverse engineering
 
 ## Setup
 ```
@@ -13,4 +13,4 @@ make
 1. Using GDB and objdump, find the flag in the "challenge2" binary
 
 ## Decompilation
-1. Decompile the "challenge3" binary and determine the output to reach the flag print out
+1. Decompile the "challenge3" binary, using Ghidra (Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)), and determine the output to reach the flag print out. You can also use an online decompiler, such as [dogbolt](https://dogbolt.org/)

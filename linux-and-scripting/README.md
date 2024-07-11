@@ -1,6 +1,13 @@
 # Linux and Scripting
 This document contains small challenges meant to go along with the PowerPoint presentation on Linux and Shell CLI, and python scripting.
 
+## Setup
+```
+git clone https://github.com/WUSTL-B34R5HELL/Bootcamp.git
+cd Bootcamp/linux-and-scripting
+make
+```
+
 ## Linux CLI and Shell
 ### Navigating the File System
 1. Create an empty file named "bearshell"
@@ -35,4 +42,4 @@ This document contains small challenges meant to go along with the PowerPoint pr
 
 ## Python Scripting
 ### Automating Program Input
-See script.py. This script automates the process of inputing 1 to 10,000 into the test program.
+1. Write a Python Program to automate the process of inputing 1 to 10,000 into 'test_program'

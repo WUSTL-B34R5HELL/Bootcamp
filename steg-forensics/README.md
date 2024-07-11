@@ -1,5 +1,5 @@
 # Steganography and Forensics
-This document contains challenges meant to go along with the PowerPoint presentation on steg and forensics.
+This document contains challenges meant to go along with the video presentation on steg and forensics.
 
 ## Setup
 To start up a docker container and a shell:
@@ -18,5 +18,5 @@ Move into the steg directory (cd steg).
 
 ## Forensics
 Move into the forensics directory (cd forensics).
-1. Open "traffic1.pcap" in Wireshark
+1. Open "traffic1.pcap" in Wireshark (Download [Wireshark](https://www.wireshark.org/download.html))
 2. Try filtering HTTP packets and extracting HTTP packets to find the flag

@@ -1,32 +1,10 @@
 # Bearshell New Member Bootcamp
-Resources for each topic covered, including powerpoints and examples.
+Resources for each topic video, including the powerpoint and challenge source.
 
-## Linux and Scripting
-### Tasks:
-1. Set up an AMD64 Linux environment. If you have a Mac with an ARM-based chip, you must emulate the AMD64 Linux environment, which can be quite slow. For the sake of the bootcamp, skip to the docker setup step. For anyone else, follow this [guide](https://wiki.osucyber.club/en/Bootcamp-CTF/Getting-Started/Environment) written by OSU's CTF team.
-2. Setup Docker. For Mac, follow this [guide](https://docs.docker.com/desktop/install/mac-install/). For the Linux environment, follow this [guide](https://docs.docker.com/engine/install/) from the docker docs. Also, follow the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) to add your user to the docker group.
-3. Complete the first module in the [dojo](https://pwn.college/dojo/bearshell~83271640/join).
+Each topic uses Docker to setup a challenge environment. To follow along with the videos on your local computer, complete the "Docker Setup" instructions. Then, each topic will have instuctions on how to start up the challenge instance.
 
-## Web Security
-### Tasks:
-1. Download [BurpSuite](https://portswigger.net/burp/communitydownload)
-2. Complete the web security pwn.college [module](https://pwn.college/bearshell~83271640/web-security)
+For more hands-on practice outside of the videos, check out the [pwn.college dojo](https://pwn.college/dojo/bearshell~83271640/join), which has challenges for each topic. All dojo challenges are hosted remotely making it super-easy to get started!
 
-## Cryptography
-### Tasks:
-1. Complete the cryptography pwn.college [module](https://pwn.college/bearshell~83271640/crypto)
-2. Download [Wireshark](https://www.wireshark.org/download.html) (for next meeting)
+## Docker Setup
+1. Setup Docker locally. For Mac, follow this [guide](https://docs.docker.com/desktop/install/mac-install/). For the Linux environment, follow this [guide](https://docs.docker.com/engine/install/) from the docker docs. Also, follow the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) to add your user to the docker group. If you have issues setting this up, feel free to reach out on Slack.
 
-## Stegonagraph and Forensics
-### Tasks:
-1. Complete the steg and forensics pwn.college [module](https://pwn.college/bearshell~83271640/steg-forensics)
-2. Download [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) for next meeting
-
-## Reverse Engineering
-### Tasks:
-1. Make sure Ghidra or another decompiler is setup
-2. Complete the reverse engineering pwn.college [module](https://pwn.college/bearshell~83271640/reverse)
-
-## Pwn
-### Tasks:
-1. Complete the pwn pwn.college [module](https://pwn.college/bearshell~83271640/pwn)
